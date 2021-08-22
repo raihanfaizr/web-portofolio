@@ -1,0 +1,149 @@
+body{
+font-family: 'Urbanist', sans-serif;
+background-color: rgb(221, 221, 221);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: grey;
+}
+#header{
+    padding: 5rem 0 7rem;
+}
+.row-header{
+    margin: 0 auto;
+    width: 50rem;
+}
+.header-img{
+    margin-left: auto;
+    width: 14rem;
+    height: 20rem;
+    border-radius: 20%;
+    object-fit: cover;
+    position: relative;
+    left: 50px;
+}
+.header-text{
+    text-align: left;
+    margin: auto 0 1rem 0;
+    position: relative;
+    left: 5rem;
+}
+.title-text{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.hr-title{
+    width: 30rem;
+    border:1px solid rgb(117, 117, 117);
+}
+.title-text2{
+    font-size: 1rem;
+    font-weight: 500;
+}
+#about{
+    padding:3rem 0;
+    background: rgb(75, 75, 75);
+    border-radius: 5%;
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    bottom: 30px;
+}
+.about-text{
+    width: 40rem;
+    margin: 4rem auto;
+}
+.hr-about{
+    border:0.5px solid rgb(99, 99, 99);
+    width: 25rem;
+}
+#skills{
+    text-align: center;
+}
+.skills-title{
+    margin: 3rem 0;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    display: inline-block;
+}
+.hr-skills{
+    display: inline-block;
+    border:2px solid rgb(99, 99, 99);
+    width: 22rem;
+    margin: 0 20px 0.7rem;
+}
+.container-skills {
+    position: relative;
+    width: 50%;
+  }
+.skills-img {
+    display: block;
+    width: 12rem;
+    height: auto;
+    margin: 0 auto;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 90%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(99, 99, 99);
+    border-radius: 10%;
+    margin: 0 auto;
+  }
+  .container-skills:hover .overlay {
+    opacity: 0.95;
+  }
+  .text-skills {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #project{   
+    height: 20rem;
+    text-align: center;
+    margin: 5rem 3rem;
+    height: 25rem;
+  }
+  .hr-project{
+      display: inline-block;
+      border: 2px solid rgb(99, 99, 99);
+      width: 20rem;
+      margin: 0 1rem 0.7rem;
+  }
+  .project-title{
+    margin: 3rem 0;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    display: inline-block;
+  }
+  .project-card{
+      margin: auto;
+      border-radius: 10%;
+      box-shadow:-2px 2px 5px rgb(75, 75, 75);
+  }
+  .card-img-top{
+      border-radius: 10%;
+      height: 9rem;
+  }
+  .footer{
+    background-color: rgb(75, 75, 75);
+    padding:2rem 0;
+    text-align: center;
+    color: white;
+  }
